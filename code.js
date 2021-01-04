@@ -8,6 +8,9 @@ const addEl = () => {
 
   if (number % 3 === 0) {
     li.classList.add("big");
+    if (number % 9 === 0) {
+      li.classList.add("purple");
+    }
   }
 
   list.appendChild(li);
