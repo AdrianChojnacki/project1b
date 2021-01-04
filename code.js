@@ -1,4 +1,5 @@
 const btn = document.querySelector(`button`);
+const list = document.querySelector(`ul`);
 let number = 1;
 
 const addEl = () => {
@@ -9,7 +10,7 @@ const addEl = () => {
     li.classList.add("big");
   }
 
-  document.querySelector(`ul`).appendChild(li);
+  list.appendChild(li);
   number += 2;
 };
 
